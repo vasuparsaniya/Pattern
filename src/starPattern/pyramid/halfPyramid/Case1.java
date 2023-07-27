@@ -1,9 +1,17 @@
-package starPattern.pyramid;
+/*--------- 
+ * 
+ * *
+ * * *
+ * * * *
+ ------------*/
+//Using the for loop
+
+package starPattern.pyramid.halfPyramid;
 
 import java.util.Scanner;
 
-public class Half_Pyramid {
-	
+public class Case1 {
+
 	public static void main(String[] args) {
 		int i, j, row;
 		System.out.println("Enter the number of Row:");
@@ -16,5 +24,9 @@ public class Half_Pyramid {
 			}
 			System.out.println("");
 		}
+
 	}
 }
+
+//Time Complexity: O(n^2)
+//Space Complexity: O(1)
