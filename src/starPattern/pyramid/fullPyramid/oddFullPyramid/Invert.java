@@ -1,3 +1,11 @@
+/*-----------
+* * * * * * * * * * * * 
+ * * * * * * * * * 
+  * * * * * * * 
+   * * * * * 
+    * * * 
+     * 
+ ------------*/
 package starPattern.pyramid.fullPyramid.oddFullPyramid;
 
 import java.util.Scanner;
