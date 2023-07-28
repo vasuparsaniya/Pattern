@@ -1,33 +1,23 @@
-/*----------
-           * 
-         * * 
-       * * * 
-     * * * * 
-   * * * * * 
------------*/
-//After rotation of 180 degree
-//using recursion
-
-package starPattern.pyramid.halfPyramid;
+package starPattern.pyramid.fullPyramid;
 
 import java.util.Scanner;
 
-public class Case5 {
-
+public class Case2 {
+	
 	static void printSpace(int space) {
 		if(space == 0) {
 			return;
 		}
-		System.out.print(" "+" ");
+		System.out.print(" ");
 		printSpace(space-1);
 	}
 	
-	static void printStars(int star) {
-		if(star == 0) {
+	static void printStar(int asterisk) {
+		if(asterisk == 0) {
 			return;
 		}
 		System.out.print("* ");
-		printStars(star-1);
+		printStar(asterisk-1);
 	}
 	
 	static void pattern(int n, int num) {
@@ -35,17 +25,17 @@ public class Case5 {
 			return;
 		}
 		printSpace(n-1);
-		printStars(num-n+1);
+		printStar(num-n+1);
 		System.out.println("");
 		pattern(n-1,num);
 	}
 	
 	public static void main(String[] args) {
-		int row;
+		int n;
 		System.out.println("Enter the number of Row:");
 		Scanner sc=new Scanner(System.in);
-		row=sc.nextInt();
+		n=sc.nextInt();
 		
-		pattern(row,row);
+		pattern(n,n);
 	}
 }
