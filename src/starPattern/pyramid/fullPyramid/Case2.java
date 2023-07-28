@@ -1,3 +1,13 @@
+/*---------
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+* * * * * * 
+ ----------*/
+//using the recursion
+
 package starPattern.pyramid.fullPyramid;
 
 import java.util.Scanner;
